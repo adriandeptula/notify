@@ -171,7 +171,7 @@ p {
     max-width: 620px;
     border-radius: 5%;
     overflow: hidden;
-    background-image: url('../images/poster.png');
+    background-image: url('../images/poster.png') no-repeat;
     background-position: center;
     background-size: contain;
     cursor: pointer;
@@ -370,7 +370,7 @@ p {
     .info-container .video-container {
         padding-bottom: 26.25%;
         width: 80%;
-        transform: translateY(-20px);
+        margin-top: 0;
     }
 
     /* reviews */
