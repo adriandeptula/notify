@@ -80,3 +80,12 @@ $('.reviews-selection-container').slick({
       },
     ]
   });
+
+  let video = document.querySelector('.video-container');
+
+  document.addEventListener('click', function (videoShow) {
+    if (videoShow.target.classList.contains('video-container')) {
+      video.innerHTML='<iframe id="intro_video" src="https://www.youtube.com/embed/z9Ul9ccDOqE?rel=0;autoplay=1" width="853" height="480" frameborder="0" allowfullscreen></iframe>'
+    }
+  });
+

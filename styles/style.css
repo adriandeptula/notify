@@ -171,6 +171,10 @@ p {
     max-width: 620px;
     border-radius: 5%;
     overflow: hidden;
+    background-image: url('../images/poster.png');
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
 }
 .info-container .video-container iframe {
     position: absolute;
@@ -671,7 +675,3 @@ p {
         right: 22%;
     }
 }
-
-
-
-
